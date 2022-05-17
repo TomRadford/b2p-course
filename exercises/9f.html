@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bois</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <style>
+        .boi {
+            width: 130px;
+            font-family: "Open Sans", sans-serif;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.219);
+            margin-left: 10px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .thumbnail {
+            width: inherit;
+            height: 130px;
+            object-fit: cover;
+
+        }
+        .title {
+            font-size: 15px;
+            font-weight: bold;
+            margin: 2px 0 0 8px;
+        }
+        .mutual-friends {
+            font-size: 13px;
+            margin: 3px 0 0 8px;
+        }
+        .add-friend {
+            margin: 8px 0 8px 8px;
+            font-size: 10px;
+            color: rgb(255, 255, 255);
+            background-color: #436cb9;
+            border: none;
+            font-weight: 300;
+            padding: 7px 10px 7px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="boi">
+        <img class="thumbnail" src="img/cat1.jpg">
+        <p class="title">Mike</p>
+        <p class="mutual-friends">4 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="boi">
+        <img class="thumbnail" src="img/cat2.jpg">
+        <p class="title">Steve</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="boi">
+        <img class="thumbnail" src="img/dog1.jpg">
+        <p class="title">Graham</p>
+        <p class="mutual-friends">15 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+    </div>
+
+</body>
+
+</html>

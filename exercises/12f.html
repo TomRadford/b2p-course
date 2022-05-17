@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        .header {
+            display: flex;
+            background-color: rgb(100, 73, 150);
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        .left {
+            color: white;
+            width: 150px;
+        }
+        .middle {
+            flex: 1;
+            max-width: 650px;
+        }
+        .right {
+            padding-left: 30px;
+            width: 100px;
+        }
+        button {
+            font-size: 18px;
+            background-color: transparent;
+            padding: 8px 12px 8px 12px;
+            color: white;
+            border-color: white;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 15px;
+            vertical-align: middle;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: rgb(115, 90, 160);
+            cursor: pointer;
+        }
+        input {
+            width: 100%;
+            padding: 10px 8px 10px 10px;
+            border-radius: 8px;
+            border: none;
+        }
+        input:focus {
+            outline-style: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <span style="font-weight: 500;">Home</span>
+        </div>
+        <div class="middle">
+            <input type="search" placeholder="Search"/>
+        </div>
+        <div class="right">
+            <button>Download</button>
+        </div>
+    </div>
+</body>
+
+</html>
