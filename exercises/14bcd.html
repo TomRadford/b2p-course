@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>14bcd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            height: 3000px;
+            font-family: Nunito;
+        }
+
+        .header {
+            display: flex;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            padding-left: 18px ;
+            height: 60px;
+            background-color: rgb(226, 226, 226);   
+
+        }
+
+        .left-section {
+            margin-left: 30px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .right-section {
+            width: 180px;
+            display: flex;
+            align-items: center;
+        }
+
+        .name {
+            margin-left: 15px;
+            font-weight: 800;
+        }
+
+        img {
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            right: 0;
+            width: 100px;
+            background-color: green;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal {
+            padding: 0px 80px 20px 15px;
+            background-color: white;
+            border-radius: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img src="img/cat2.jpg">
+            <span class="name">Oliver Cat</span>
+        </div>
+        <div class="right-section">
+            <button>
+                Add friend
+            </button>
+        </div>
+    </div>
+    <div class="sidebar">
+        right sidebar
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <h1>
+                Modal title
+            </h1>
+            <p>This is a modal</p>
+            <button id="close">Close</button>
+        </div>
+    </div>
+</body>
+
+</html>
